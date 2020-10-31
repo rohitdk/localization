@@ -12,6 +12,6 @@ public class MessagesController {
 	public String getMessage() {
 		 	DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");  
 		 	LocalDateTime now = LocalDateTime.now();
-		return "test message in English with current time: " + dtf.format(now);
+		return "Test current server time: " + dtf.format(now);
 	}
 }
